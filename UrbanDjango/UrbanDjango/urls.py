@@ -20,7 +20,8 @@ from django.contrib import admin
 from django.urls import path
 from django.views.generic import TemplateView
 from task2.views import class_templates
-from task3.views import games_templates,carts_templates,platforms_templates
+#from task3.views import games_templates,carts_templates,platforms_templates
+from task4.views import games_templates,carts_templates,platforms_templates
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('classes', class_templates),
